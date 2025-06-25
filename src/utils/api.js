@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL:  process.env.LOCAL_ADDRESS,
+  baseURL:  process.env.BASE_ADDRESS,
   withCredentials: true,
 });
 
